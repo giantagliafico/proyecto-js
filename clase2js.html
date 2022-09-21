@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Link a boostrap-->
+    <!-- CSS only -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b1b2946fc0.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+</head>
+<body class="body-clase2">
+<!--comienzo navegador-->
+<nav class="navbar ">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        LeisureTV</a>
+      <form id="formulario-index" class="d-flex" role="search">
+      
+        <input  class="form-control me-2"   id="buscador" type="search"  placeholder="Ingrese lo que quiera ver">
+        
+        <button class="btn btn-outline-success" type="submit"><a class="boton-encuesta" href="./pages/encuesta.html">Encuesta</a></button>
+        <button class="btn btn-outline-success" type="submit"><a class="boton-encuesta" href="./pages/registro.html">Iniciar sesion</a></button>
+    </form>
+    </div>
+  </nav>
+  <!--comienzo main-->
+  <main>
+
+    <!-- 3D Slideshow Section --> 
+<section id="slideshow">
+  <h2 id="titulo-inde" class="animate__animated animate__fadeInRightBig">Series y programas sugeridos..</h2>
+  <div class="entire-content">
+    <div class="content-carrousel">
+      <figure class="shadow"><img src="imagenes/stranger-things.webp"/></figure>
+      <figure class="shadow"><img src="imagenes/Wallpaper_Terminator_Genisys_V2_MAC_JPosters.jpg"/></figure>
+      <figure class="shadow"><img src="imagenes/scale.jpg"/></figure>
+      <figure class="shadow"><img src="imagenes/1559573314_873311_1559575720_noticia_normal.jpg"/></figure>
+      <figure class="shadow"><img src="imagenes/840_560.jpg"/></figure>
+      <figure class="shadow"><img src="imagenes/10-series-del-recuerdo-que-jamás-olvidarás-07.jpg"/></figure>
+      <figure class="shadow"><img src="imagenes/1561060629-51ebhJXUZqL.jpg"/></figure>
+      <figure class="shadow"><img src="imagenes/686dbdd1489cf9da985c3aa948b16f15.jpg"/></figure>
+      <figure class="shadow"><img src="imagenes/7254a0bc6c627d4641e82a27bf4f5294.jpg"/></figure>
+</div>
+</div>
+</section>
+
+<h1 id="titulo-index"   class="animate__animated animate__fadeInLeft">Aqui abajo le van a aparecer los programas de tv que has buscado</h1>
+
+   <section  id="app" class="grid-fluid">
+    <template id="show-template">
+      <article class="animate__animated animate__bounce " id="show">
+        <h3></h3>
+        <div></div>
+        <img>
+        <a class="letra"></a>
+      </article>
+    </template>
+   </section>
+   
+</main>
+
+
+
+<!-- JavaScript  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+    <script src="clase 2.js"></script>
+    <script src="classpeliculas.js"></script>
+   
+</body>
+</html>

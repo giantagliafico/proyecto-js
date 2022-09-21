@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+   <title>Document</title>
+</head>
+<body id="body-registro">
+    <div class="contenedor-form sign-up">
+        <div class="bienvenido">
+            <div class="mensaje">
+                <h2>Bienvenido a nuestra app de Programas</h2>
+                <p>Si ya tenes una cuenta inicia sesion aqui</p>
+                <button class="sign-up-btn">Iniciar sesion</button>
+            </div>
+        </div>
+        <form id="form" class="formulario">
+            <h2 class="creat-acount">
+                <p class="cuenta-gratis">crear una cuenta gratis</p>
+                <div class="icons">
+                    <div class="border-icon">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </div>
+                    <div class="border-icon">
+                        <i class='bx bxl-facebook'></i> 
+                    </div>
+                    <div class="border-icon">
+                        <i class='bx bxl-gmail'></i>
+                    </div>
+                </div>  
+                <input id="nombre" type="text" placeholder="Nombre">
+                <input id="email" type="text" placeholder="Email">
+                <input id="contrasena" type="" placeholder="Contraseña">
+                <button onclick="entrar()" class="boton" type="submit" type="button" value="registrarse">Registrarse</button>
+                <p class="parrafo" id="parrafo"></p>
+            </h2>
+        </form>
+    </div>
+    <div class="contenedor-form sign-in">
+        <div class="bienvenido">
+            <form class="formulario">
+                <h2 class="creat-acount">Iniciar sesion</h2>
+                    <div class="icons">
+                        <div class="border-icon">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </div>
+                        <div class="border-icon">
+                            <i class='bx bxl-facebook'></i> 
+                        </div>
+                        <div class="border-icon">
+                            <i class='bx bxl-gmail'></i>
+                        </div>
+                    </div>
+                    <p class="cuenta-gratis">¿Aun no tienes cuenta?</p>
+                    <input onclick="mostrarUsuarioRegistrado()" id="email-recargar" type="text" placeholder="Email">
+                    <input id="contrasena-regargar" type="" placeholder="Contraseña">
+                    <input type="Button" value="Iniciar sesion">
+                </h2>
+            </form>
+            <div class="mensaje">
+                <h2>Bienvenido de nuevo</h2>
+                <p>Si aun no tienes una cuenta registrese aqui</p>
+                <button class="sign-in-btn">Registrarse</button>
+            </div>
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="estilos.js"></script>
+   
+</html>
